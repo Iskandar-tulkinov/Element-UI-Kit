@@ -12,7 +12,7 @@ padding: 0 auto;
   outline-offset: 3px;
   outline-width: 2px;
   outline-style: dashed;
-  transform:scale(0.98);
+  transform:scale(0.95);
 
 }
 body{
@@ -47,18 +47,10 @@ h3{
 }
 .container div{
   text-align: center;
-  /* border: 2px solid green; */
   padding: 0 5px;
   border-radius:5px;
-borde
 }
-hr{
-  height: 5px ;
-  width: 100%;
-  background-color: crimson;
-  margin: 10px 0;
-  display: none;
-}
+
 button{
   border: none;
   border-radius: 0;
@@ -96,6 +88,9 @@ transition: all .3s ease;
 .btn:disabled{
   opacity: 0.5;
   pointer-events: none;
+}
+.btn:focus{
+outline: none;
 }
 .btn.btn_md{
   padding: 7px 20px;
@@ -138,7 +133,8 @@ transition: all .3s ease;
   background: #85CE61;
 }
 .btn.btn_victory:active{
-  background: #5DAF34;
+ background: #5DAF34;
+
 }
 .btn.btn_victory:disabled{
   opacity: 0.5;
@@ -154,7 +150,7 @@ color: #FFF;
 .btn.btn_secondary:hover{
   background-color: #A6A9AD;
 }
-.btn.btn_victory:active{
+.btn.btn_secondary:active{
   background-color: #82848A;
 }
 .btn.btn.btn_secondary:disabled{
