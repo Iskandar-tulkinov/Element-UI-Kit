@@ -1,0 +1,65 @@
+:root{
+  ---Fill :230px;
+  ----Hug:40px;
+}
+*{
+  outline: inherit;
+  box-sizing: border-box;
+}
+body{
+margin: 10px 20px;
+}
+.container{
+  border-radius: 5px;
+  margin: 50px 15px ;
+}
+.form{
+  display: flex;
+font-family: "Noto Sans SC";
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+}
+.form-control{
+  display: flex;
+  text-align: center;
+  margin-right: 30px;
+  position: relative;
+}
+.form-control label{
+  display: inline-block;
+  margin-right: 12px;
+}
+.form-control span{
+  color: red;
+  margin-right: 2px;
+}
+.form-control input{
+  width:var(---Fill);
+height:(var(----Hug));
+padding: 9px, 12px, 9px, 12px;
+border-radius: 4px;
+border: 1px solid #E4E7ED;
+gap: 10px;
+text-transform: capitalize;
+}
+.form-control input:focus{
+ border-color:  #409EFF;
+}
+.form-control input:disabled{
+  background-color: #E4E7ED;
+}
+.form-control input::placeholder{
+color:  #C0C4CC;
+}
+.form-control small{
+position: absolute;
+top: 20px;
+left: 50px;
+color:  #C0C4CC;
+font-size: 10px;
+}
+/* .form-control .error{
+  border-color: red;
+} */
