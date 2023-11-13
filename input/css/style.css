@@ -118,14 +118,71 @@ font-size: 12px;
 .wrapper .input_md{
   padding: 7px 12px;
 }
+.form-control.form_md.input.input_close_icon img {
+  top: 17px;
+}
+.form-control.form_md.input.input_limit:before{
+  top: 17px;
+}
+.form-control.form_md.input.input_icon_left img{
+  top: 16px;
+}
+.form-control.form_md.input.input_icon_left.input_close_icon img:first-child{
+  top: 16px;
+}
+.form-control.form_md.input.input_icon_left.input_close_icon img:last-child{
+  top: 17px;
+}
+.form-control.form_md.input.input_icon_left.input_limit::before{
+  top: 16px;
+}
+
 /* SMALL */
 .wrapper .input_sm{
   padding: 5px 12px;
 }
+.form-control.form_sm.input.input_close_icon img {
+  top: 14px;
+}
+.form-control.form_sm.input.input_limit:before{
+  top: 14px;
+}
+.form-control.form_sm.input.input_icon_left img{
+  top: 14px;
+}
+.form-control.form_sm.input.input_icon_left.input_close_icon img:first-child{
+  top: 14px;
+}
+.form-control.form_sm.input.input_icon_left.input_close_icon img:last-child{
+  top: 14px;
+}
+.form-control.form_sm.input.input_icon_left.input_limit::before{
+  top: 14px;
+}
+
 /*EXTRA SMALL */
 .wrapper .input_xs{
   padding: 3px 12px;
 }
+.form-control.form_xs.input.input_close_icon img {
+  top: 12px;
+}
+.form-control.form_xs.input.input_limit:before{
+  top: 12px;
+}
+.form-control.form_xs.input.input_icon_left img{
+  top: 12px;
+}
+.form-control.form_xs.input.input_icon_left.input_close_icon img:first-child{
+  top: 12px;
+}
+.form-control.form_xs.input.input_icon_left.input_close_icon img:last-child{
+  top: 12px;
+}
+.form-control.form_xs.input.input_icon_left.input_limit::before{
+  top: 12px;
+}
+
 @media only screen and (max-width:500px){
 .wrapper{
   flex-direction: column;
