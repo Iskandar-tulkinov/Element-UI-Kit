@@ -104,6 +104,13 @@ outline: none;
 .btn.btn_rounded{
   border-radius: 222222px;
 }
+.btn.btn_rounded:active{
+  border-radius: 222222px;
+}
+.btn.btn_rounded:focus{
+  border-radius: 222222px;
+}
+
 /* Primary */
 .btn.btn_primary{
   background-color: var(--primary-300);
