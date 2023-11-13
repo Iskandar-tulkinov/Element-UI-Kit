@@ -110,6 +110,9 @@ outline: none;
 .btn.btn_rounded:focus{
   border-radius: 222222px;
 }
+.btn.btn_rounded:hover{
+  border-radius: 222222px;
+}
 
 /* Primary */
 .btn.btn_primary{
